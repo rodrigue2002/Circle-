@@ -35,8 +35,7 @@ public class Circle {
         return Math.PI * radius * radius;
     }
 
-    boolean istlower(double x , double y){     // est ce que le point est dans le cercle
+    boolean isin(double x , double y){     // est ce que le point est dans le cercle
         return Math.pow((x-this.x),2) + Math.pow((y-this.y),2) <= Math.pow(radius,2);
     }
-
 }
